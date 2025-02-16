@@ -1,14 +1,19 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "@/components/Footer";
+import Mission from "@/components/Mission";
+import Information from "@/components/Information";
+import History from "@/components/History";
+import Slide from "@/components/Slide";
 
 const Home = () => {
   return (
     <>
-      <h4>Image-nav</h4>
-      <h4>History and cards</h4>
-      <h4>Important things to know and image</h4>
-      <h4>Mission and vision</h4>
-      <h4>Footer</h4>
+      <Slide />
+      <History />
+      <Information />
+      <Mission />
+      <Footer />
     </>
   );
 };
