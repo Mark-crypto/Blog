@@ -4,8 +4,8 @@ const History = () => {
   return (
     <>
       <div className="history">
-        <p>
-          history of technology, the development over time of systematic
+        <div>
+          History of technology, the development over time of systematic
           techniques for making and doing things. The term technology, a
           combination of the Greek technē, “art, craft,” with logos, “word,
           speech,” meant in Greece a discourse on the arts, both fine and
@@ -50,7 +50,7 @@ const History = () => {
           discussion of specific areas of technological development is provided
           in a variety of other articles: for example, seeelectronics;
           exploration; information processing.
-        </p>
+        </div>
       </div>
     </>
   );
